@@ -1,0 +1,82 @@
+@import url('https://fonts.google.com/specimen/Sora?query=sora');
+                
+body{
+    background-color: #FAFAF9;
+}
+.containerBloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCard{
+    width: 368px;
+    margin-top: 164px;
+    margin-bottom: 164px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    padding: 0 0 20px 0;
+}
+.contentImage{
+    width: 100%;
+    border-radius: 10px;
+}
+.contentImage2{
+    width: 100%;
+    margin-top: -45px;
+    margin-bottom: -20px;
+}
+.containerImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: .75em;
+}
+.containerBody p{
+    color: #6C727F;
+    font-family: 'SORA', sans-serif;
+    font-size: 14px;
+}
+
+h3{
+    font-family: 'SORA', sans-serif;
+    font-size: 24px;
+    color: #20293A;
+    margin-top: 0;
+}
+
+.containerFooter{
+    display: flex;
+    border-top: 1px solid #E5EAF0;
+    padding: .75em .75em 0;
+}
+
+.containerFooter h4{
+    color: #6C727F;
+    font-family: 'SORA', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.container_image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+img.contentImage3 {
+    width: 100%;
+    border-radius: 50%;
+}
+.contentFooter{
+    margin-left: 15px;
+}
+.containerFooter p{
+    color: #6C727F;
+    font-family: 'SORA', sans-serif;
+    font-size: 12px;
+}
