@@ -36,7 +36,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: .75em;
+    padding: 1.5em;
 }
 .containerBody p{
     color: #6C727F;
@@ -54,7 +54,7 @@ h3{
 .containerFooter{
     display: flex;
     border-top: 1px solid #E5EAF0;
-    padding: .75em .75em 0;
+    padding: .75em 1.5em 0;
 }
 
 .containerFooter h4{
@@ -74,9 +74,15 @@ img.contentImage3 {
 }
 .contentFooter{
     margin-left: 15px;
+    margin-top: 5px;
+    margin: 5px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .containerFooter p{
     color: #6C727F;
     font-family: 'SORA', sans-serif;
     font-size: 12px;
+    margin-top: 5px;
 }
